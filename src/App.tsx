@@ -29,10 +29,9 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="flex-center">
-      <h1>Random Chess</h1>
+    <div className="ChessWrapper">
       <Chessboard
-        width={400}
+        // width={400}
         position={fen}
         onDrop={(move) =>
           handleMove({
